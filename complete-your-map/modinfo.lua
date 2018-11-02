@@ -1,5 +1,5 @@
 --The name of the mod displayed in the 'mods' screen.
-name = "[Hack] Complete Your Map"
+name = "Gesture wheel"
 
 --A description of the mod.
 description = "Displays additional info on the map"

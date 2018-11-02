@@ -1,5 +1,5 @@
 -- This information tells other players more about the mod
-name = "[Hack] Quick Emotes"
+name = "Reverse Attack"
 description = "A small mod that binds emotes to the function keys, F1 to F9."
 author = "Peter Andrews (peter_a_klei)"
 version = "1.7"

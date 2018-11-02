@@ -1,4 +1,4 @@
-name = "[Hack] Coordinate"
+name = "Craft Pot"
 description = "A coordinates system to help communicate location data to other players."
 author = "Stuart Gilbert"
 version = "0.0.3"

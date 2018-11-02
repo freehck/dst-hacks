@@ -1,5 +1,5 @@
 
-name = "[Hack] Camera Tweaks"
+name = "Sticky Recipe"
 description = ""
 author = "exige"
 version = "1.9"
