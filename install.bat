@@ -14,5 +14,6 @@ set "id=%~2"
 set "extid=%~3"
 @RD /S /Q "%DstModsDir%\workshop-%id%"
 ROBOCOPY %mod% "%DstModsDir%\workshop-%id%" /E
+ATTRIB +r "%DstModsDir%\workshop-%id%"
 @RD /S /Q "%DstModsDir%\workshop-%extid%"
 EXIT /B 0
