@@ -5,6 +5,8 @@ CALL :InstallMod local-coordinates, 727774324
 CALL :InstallMod camera-tweaks, 362906105, 1161850231
 CALL :InstallMod complete-your-map, 352373173, 459280938
 CALL :InstallMod quick-emotes, 369420067, 344071294
+CALL :InstallMod remove-sand, 1240565842, 1292057450
+CALL :InstallMod remove-insanity, 873350047, 1231473531
 
 EXIT /B %ERRORLEVEL%
 

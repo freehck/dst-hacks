@@ -3,7 +3,7 @@
 # список разрешённых модов в hungergames.club
 # 1240565842   Russian translation*          https://steamcommunity.com/sharedfiles/filedetails/?id=1240565842
 # 352373173    Gesture wheel*		     https://steamcommunity.com/sharedfiles/filedetails/?id=352373173 
-# 873350047    Quick Drop - Client Version   https://steamcommunity.com/sharedfiles/filedetails/?id=873350047 
+# 873350047    Quick Drop - Client Version*  https://steamcommunity.com/sharedfiles/filedetails/?id=873350047 
 # 727774324    Craft Pot*		     https://steamcommunity.com/sharedfiles/filedetails/?id=727774324 
 # 369420067    Reverse Attack*		     https://steamcommunity.com/sharedfiles/filedetails/?id=369420067 
 # 1240505368   KeepMoveOrFollow		     https://steamcommunity.com/sharedfiles/filedetails/?id=1240505368
@@ -18,6 +18,8 @@
 # camera-tweaks      workshop-1161850231, тот же аериал, только лучше
 # complete-your-map  workshop-459280938, мод на автодополнение карты всякой всячиной
 # quick-emotes       workshop-344071294, эмоции на F1-F12, нравится мне больше, чем Gesture Wheel
+# remove-sand        workshop-1292057450, удаляет эффект песчаной бури
+# remove-insanity    workshop-1231473531, удаляет эффект безумия
 
 DST_MODS_DIR="/home/freehck/.steam/steam/steamapps/common/Don't Starve Together/mods"
 
@@ -40,5 +42,7 @@ install_mod	local-coordinates  727774324               # local-coordinates -> Cr
 install_mod	camera-tweaks      362906105   1161850231  # camera-tweaks -> Sticky Recipe
 install_mod     complete-your-map  352373173   459280938   # complete-your-map -> Gesture wheel
 install_mod     quick-emotes       369420067   344071294   # quick-emotes -> Reverse Attack
+install_mod	remove-sand        1240565842  1292057450  # remove-sand -> Russian translation
+install_mod     remove-insanity    873350047   1231473531  # remove-insanity -> Quick Drop - Client Version
 
 
