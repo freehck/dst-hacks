@@ -6,8 +6,8 @@ local anchor_horiz = -1
 local margin_dir_vert = 1
 local margin_dir_horiz = -1
 
-local margin_size_x = 0
-local margin_size_y = 0
+local margin_size_x = 20
+local margin_size_y = 25
 
 local require = GLOBAL.require
 
