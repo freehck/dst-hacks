@@ -23,8 +23,12 @@ DST_MODS_DIR="/home/freehck/.steam/steam/steamapps/common/Don't Starve Together/
 
 install_mod () {
     mod=$1 id=$2 extid=$3
-    rm -rf "$DST_MODS_DIR"/workshop-$id
+    if [ -d "$DST_MODS_DIR"/workshop-$id ]; then
+	sudo chattr -i -R "$DST_MODS_DIR"/workshop-$id
+	rm -rf "$DST_MODS_DIR"/workshop-$id
+    fi
     cp -r $mod "$DST_MODS_DIR"/workshop-$id
+    sudo chattr +i -R "$DST_MODS_DIR"/workshop-$id
     if [ -n "$extid" ]; then
 	rm -rf "$DST_MODS_DIR"/workshop-$extid
     fi

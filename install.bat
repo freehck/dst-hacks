@@ -12,6 +12,8 @@ EXIT /B %ERRORLEVEL%
 set "mod=%~1"
 set "id=%~2"
 set "extid=%~3"
+ATTRIB -r "%DstModsDir%\workshop-%id%"
+ATTRIB -r "%DstModsDir%\workshop-%id%\*.*" /S /D
 RD /S /Q "%DstModsDir%\workshop-%id%"
 ROBOCOPY %mod% "%DstModsDir%\workshop-%id%" /E
 ATTRIB +r "%DstModsDir%\workshop-%id%"
